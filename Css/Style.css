@@ -1,0 +1,600 @@
+/* font-family: 'EB Garamond',Georgia,"Times New Roman",serif; */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+ /* Banner starts  */
+#Banner
+{
+    width: 100%;
+    height: 160vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../Images/Banner.jpg) ;
+    background-size: cover;
+   
+}
+#Banner header img
+{
+    width: 6%;
+    margin: 30px;
+}
+.Banner_text 
+{
+    width: 43%;
+    margin: 0 auto;
+    color: #fff;
+}
+.Banner_text  span
+{
+    color: #f3ab1b;
+    font-family: 'Kaushan Script', cursive, serif;
+}
+
+.Banner_content
+{
+    width: 52%;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); 
+    font-size: 19px;
+    padding: 0px 20px;
+    text-transform: capitalize;
+}
+.Banner_content p
+{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+/* .whatapp
+{
+    width: 50px;
+    color: white;
+    background: rgb(92, 209, 92);
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 94%;
+    margin-top: 12%;
+    background-attachment: scroll;
+} */
+
+ /* Banner ends  */
+
+ /* Form_section starts */
+    #Form
+    {
+        background:#fff;
+    }
+ .form_section
+ {
+     background: rgba(243, 237, 237, 0.651);
+     padding: 40px 20px ;
+     margin-top: -33%;
+     position: relative;
+     border-radius: 40px 40px 40px 40px;
+     box-shadow: 1px 5px 0px 1px rgb(230, 216, 216);
+ }
+
+ .Heading{  
+    position: relative;
+}
+
+.Heading::before {
+    content: '';
+    width: 23%;
+    height: 5px;
+    background-color:#f3ab1b;
+    left: -10px;
+    position: absolute;
+    bottom: 15px;
+}
+.Heading::after {
+    content: '';
+    width: 23%;
+    height: 5px;
+    background-color:#f3ab1b;
+    right: -10px;
+    position: absolute;
+    bottom: 15px;
+}
+
+
+ .download p
+ {
+    font-size: 19px;
+ }
+
+ .btn_1
+ {
+     padding: 12px 25px;
+     border-radius: 40px;
+     color: #fff;
+     font-weight: bold;
+     background: orange;
+     border: none;
+     font-size: 18px;
+ }
+ .form_section .Content
+ {
+     background: orange;
+     text-align: center;
+     padding: 4px;
+     margin-left: 20px;
+     color: #fff;
+     font-size: 21px;
+     font-weight: bold;
+     text-align: center;
+ }
+ .content_2
+ {
+    padding: 6px;
+    box-shadow: 1px 1px 1px 2px gray;
+ }
+
+ /* Form_section ends */
+
+ /* Welcome_Subham Starts */
+ .Welcome
+ {
+     width: 80%;
+     margin: 0 auto;
+     color: orange;
+   
+ }
+ .Welcome h1
+ {
+    font-weight: bold;
+ }
+
+ .Welcome_para p
+ {
+     font-size: 19px;
+ }
+
+ .Subham
+ {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     text-align: center;
+ }
+
+ .Subham_content
+ {
+     width: 29%;
+     padding: 60px 10px;
+     transform: .5s;
+ }
+ .Subham_content h6
+ {
+    font-weight: bold;
+ }
+ .Subham_content:hover
+ {
+     transform: scale(1.1);
+     overflow: hidden !important;
+     transition: all .5s;
+     border-top: 5px solid orange;
+     border-radius: 10px;
+     box-shadow: 2px 2px 1px 1px rgb(241, 227, 227);
+ }
+
+ .btn_2
+ {
+     padding: 12px 60px;
+     margin-top: 20px;
+ }
+/* Welcome_Subham ends */
+
+
+/* Location starts */
+
+.Heading_3{  
+    position: relative;
+}
+.Heading_3::before {
+    content: '';
+    width: 30%;
+    height: 7px;
+    background-color:#f3ab1b;
+    left: -120px;
+    position: absolute;
+    bottom: 38px;
+}
+.Heading_3::after {
+    content: '';
+    width: 30%;
+    height: 7px;
+    background-color:#f3ab1b;
+    right: -120px;
+    position: absolute;
+    bottom: 38px;
+}
+
+.Map:hover .Heading_3::before
+{
+    width: 12%;
+    transition: all .5s;
+}
+
+.Map:hover .Heading_3::after
+{
+    width: 12%;
+    transition: all .5s;
+}
+.Location_details
+{
+    width: 78%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.Location_details .Location_img
+{
+    width: 49.8%;
+    
+}
+.Location_details .Location_img img
+{
+ width: 100%;
+}
+#View
+{
+    display: none;
+}
+/* Location ends */
+
+/* Gallery starts */
+
+.Heading_4::before, .Heading_4::after
+{
+ width: 18%;
+ top: 25px;
+ 
+}
+.Heading_4::before
+{
+    left: -38px;
+}
+.Heading_4::after
+{
+    right: -38px;
+}
+.Gallery
+{
+    margin-bottom: 35px;
+}
+
+/* .Gallery_img:hover
+{
+    background: darkgray;
+    z-index: 1;
+    width: 10%;
+    height: 7%;
+} */
+
+.Gallery img
+{
+    width: 100%;
+   
+}
+.Gallery img:hover
+{
+    opacity: .5;
+    transition: .5s;
+}
+.Gallery p
+{
+    font-size: 14px;
+    color:rgb(116, 114, 114);
+    padding: 5px 2px;
+}
+/* Gallery ends */
+
+/* Video_section starts  */
+#Video
+{   
+    width: 100%;
+    height: 590px;
+    margin-bottom: 35px;
+}
+/* Video_section ends  */
+
+
+#Secondary
+{
+  
+    background:lightgrey;
+    width: 100%;
+    
+}
+
+#Secondary .Secondary_logo
+{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f2f3f3;
+    padding: 30px 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 60px;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 30%);
+    /* opacity: ; */
+   
+}
+#Secondary .Secondary_logo .Logo__1 img
+{
+    width: 110%;
+    padding-bottom: 20px;
+}
+
+.Secondary_content
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 80px;
+    background-color: rgba(212, 212, 212, 0.795);
+    box-shadow: 0px 0px 60px 0px rgb(0 0 0 / 30%);
+}
+.Secondary_content p
+{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+footer
+{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+footer p
+{
+    color: grey ;
+    font-size: 18px;
+}
+footer span
+{
+    color: #f3ab1b;
+}
+ /* Responsive code starts */
+
+
+ @media only screen and (max-width:800px) {
+    #Banner
+    {
+        width: 100%;
+        height: 100vh;
+    }
+    #Banner header
+    {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+   
+    #Banner header img
+    {
+        width: 30%;
+        margin: 10px;
+    }
+    .Banner_text 
+    {
+        width: 40%;
+        margin: 0 auto;
+       padding: 0;
+    }
+    .Banner_text h1
+    {
+        font-size: 22px;
+    }
+
+    .Banner_content
+    {
+        width: 90%;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+        padding: 5px 10px; 
+    }
+    .Banner_content p
+    {
+        font-size: 14px;
+    }
+
+        .form_section
+    {
+    
+        margin-top: 0%;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: 5px 5px 0px 1px rgb(230, 216, 216);
+    }
+    .Welcome h1
+    {
+    font-size: 22px;
+    }
+
+            .Subham
+    {
+    flex-direction: column;
+
+    }
+
+    .Subham_content
+    {
+    width: 95%;
+    margin: 0 auto;
+    }
+
+    .Location_details
+    {
+    flex-direction: column;
+    width: 100%;
+    }
+    .Location_details .Location_img
+    {
+    
+        width: 100%;
+
+    }
+    #View
+    {
+        display: block;
+    }
+    .Heading_3::before {
+        width: 20%;
+        left: -20px;
+        top: 30px;
+    }
+    .Heading_3::after {
+      
+        width: 20%;
+        right: -20px;
+        top: 30px;
+    }
+    #Logo_Hide
+    {
+        display: none;
+    }
+     
+    .Hide
+    {
+        display: none;
+    }
+
+
+    }
+    @media only screen and (max-width:700px){
+        .Heading_3
+        {
+           font-size: 23px;
+        }
+
+       
+        /* .Heading_3::before, .Heading_3::after
+        {
+            display: none;
+        } */
+     
+
+        .Heading_4::before, .Heading_4::after
+        {
+         width: 38%;
+         top: 20px;
+         
+        }
+        .Heading_4::before
+        {
+            left: -90px;
+        }
+        .Heading_4::after
+        {
+            right: -90px;
+        }
+
+        #Video
+        {
+            height:550px;
+        }
+       
+
+    }
+
+    @media only screen and (max-width:530px){
+        .form_section
+        {
+            box-shadow: none;
+            background: none;
+        }
+       
+        .Heading::before {
+           
+            left: -20px;
+            width: 15%;
+        }
+        .Heading::after {
+           
+            right: -20px;
+            width: 15%;
+        }
+
+        .Map h1
+        {
+            font-size: 24px;
+        }
+
+        .Heading_3::before {
+            width: 15%;
+            left: -10px;
+            top: 30px;
+        }
+        .Heading_3::after {
+          
+            width:15%;
+            right: -10px;
+            top: 30px;
+        }
+        #Video
+        {
+            height: 350px;
+        }
+
+
+    }
+
+    @media only screen and (max-width:400px)
+    {
+        .form_section h2
+        {
+            word-wrap: break-word;
+        }
+        .Heading::before {
+           
+            left: -20px;
+            width: 12%;
+        }
+        .Heading::after {
+           
+            right: -30px;
+            width: 15%;
+        }
+
+
+        .Heading_3::before {
+            width: 12%;
+            left: -10px;
+        }
+        .Heading_3::after {
+          
+            width: 12%;
+            right: -10px;
+        }
+
+        .Heading_4::before
+        {
+            width: 28%;
+            left: -50px;
+        }
+        .Heading_4::after
+        {
+            width: 28%;
+            right: -50px;
+        }
+
+       .Welcome h1
+        {
+        font-size: 20px;
+        }
+        .Gallery h1
+        {
+            font-size: 20px;
+        }
+        .Map h1
+        {
+            font-size: 20px;
+        }
+    }
